@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML e CSS</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imagens/icone.png">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">HTML e CSS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#final">Desenvolvedor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#artigo">Artigos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.w3schools.com/">w3schools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#final">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="container my-5">
+    <div class="row">
+      
+      <div class="col-lg-3 mb-4">
+        <div class="sidebar-box bg-light p-3">
+          <h2 class="sidebar-title">Categorias</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><a target="_blank" href="https://www.cnnbrasil.com.br/tecnologia/novas-tecnologias/">Tecnologia</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores">Programação</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://www.invivo.fiocruz.br/historia/alan-turing-o-pai-da-computacao/#:~:text=Considerado%20o%20pai%20da%20computa%C3%A7%C3%A3o,te%C3%B3rico%20para%20um%20computador%20universal.">Inspiração</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjLtMaEo9yIAxWnQkgAHcWFLKEYABAAGgJjZQ&co=1&ase=2&gclid=Cj0KCQjwxsm3BhDrARIsAMtVz6NCjgdZf79R__MMTOudCwDrEdvVcmHMR3gVRcpgXIy_Ya3-ESthKBUaAgO2EALw_wcB&sig=AOD64_1fGClO9a9AhvEfABAuDF8aDCo4Yw&q&nis=4&adurl&ved=2ahUKEwjik8CEo9yIAxXfL7kGHTD7OxAQ0Qx6BAgHEAE">Carreira</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-box bg-light p-3 mt-4">
+          <h2 class="sidebar-title">Posts</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#p2">Postagem 2</a></li>
+            <li class="list-group-item"><a href="#p3">Postagem 3</a></li>
+            <li class="list-group-item"><a href="#p4">Postagem 4</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <h2 id="artigo" class="main-title mb-4">Artigos</h2>
+        
+        <article class="post mb-5 p-4 shadow bg-white rounded">
+          <div class="post-thumbnail mb-3">
+            <img src="imagens/p1.gif" alt="Post Thumbnail" class="img-fluid rounded">
+          </div>
+          <h3 class="post-title">Como começar a programar em HTML</h3>
+          <p class="post-excerpt">Aprenda a começar a programar em HTML usando as tags básicas, estruturas e atributos. Veja como utilizar essas ferramentas para construir páginas web interativas.</p>
+          <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjs67Wdo9yIAxWpVEgAHTViCS0YABABGgJjZQ&co=1&ase=2&gclid=Cj0KCQjwxsm3BhDrARIsAMtVz6MCCAWJ1kQ8EVeNhk95mzMGuIDFam4Wk-cTLvVzk7g9OeFy5Pg8giUaAlZ-EALw_wcB&sig=AOD64_0g5ZbGiCoj3IacsapnvVvRoUQU7g&q&nis=4&adurl&ved=2ahUKEwiY76-do9yIAxUjA7kGHdx2FzoQ0Qx6BAgMEAE" class="btn btn-outline-dark" target="_blank">Veja mais</a>
+        </article>
+
+        <article id="p2" class="post mb-5 p-4 shadow bg-white rounded">
+          <div class="post-thumbnail mb-3">
+            <img src="imagens/p2.jpg" alt="Post Thumbnail" class="img-fluid rounded">
+          </div>
+          <h3 class="post-title">Todas as tags semânticas HTML</h3>
+          <p class="post-excerpt">As tags semânticas do HTML são elementos essenciais para estruturar e organizar o conteúdo de uma página de forma mais clara e significativa, tanto para os navegadores quanto para os motores de busca. Neste artigo, vamos explorar as principais tags semânticas, como "header", "article", "section", e "footer", e como elas ajudam a melhorar a acessibilidade, o SEO e a experiência geral do usuário. Entenda a importância de utilizar essas tags corretamente para criar páginas web mais otimizadas e com uma estrutura sólida.</p>
+          <a href="https://www.hostgator.com.br/blog/html-semantico/" class="btn btn-outline-dark" target="_blank">Veja mais</a>
+        </article>
+
+        <article id="p3" class="post mb-5 p-4 shadow bg-white rounded">
+          <div class="post-thumbnail mb-3">
+            <img src="imagens/p3.jpg" alt="Post Thumbnail" class="img-fluid rounded">
+          </div>
+          <h3 class="post-title">Introdução ao CSS</h3>
+          <p class="post-excerpt">CSS (Cascading Style Sheets) é uma linguagem de criação de estilos, que quando combinados determinam qual será a aparência de uma página web. Enquanto o HTML cuida da estrutura contida em uma página, é o CSS quem diz ao navegador com o que cada parte da página deve se parecer.</p>
+          <a href="https://www.devmedia.com.br/introducao-pratica-ao-css/40682" class="btn btn-outline-dark" target="_blank">Veja mais</a>
+        </article>
+
+        <article id="p4" class="post mb-5 p-4 shadow bg-white rounded">
+          <div class="post-thumbnail mb-3">
+            <img src="imagens/p4.webp" alt="Post Thumbnail" class="img-fluid rounded">
+          </div>
+          <h3 class="post-title">O que é possível fazer com CSS</h3>
+          <p class="post-excerpt">O CSS é um código em que você pode fazer alterações rápidas de layout, como definição de cores e fontes, por exemplo. Essa camada proporciona não apenas a facilidade de personalização, como também ajuda a diminuir a repetição de conteúdo na estrutura do código.</p>
+          <a href="https://www.godaddy.com/resources/br/artigos/voce-sabe-o-que-e-css-entenda-como-funciona-e-para-que-serve#:~:text=funciona%20o%20CSS%3F-,O%20CSS%20%C3%A9%20um%20c%C3%B3digo%20em%20que%20voc%C3%AA%20pode%20fazer,conte%C3%BAdo%20na%20estrutura%20do%20c%C3%B3digo." class="btn btn-outline-dark" target="_blank">Veja mais</a>
+        </article>
+      </div>
+
+      <div class="col-lg-3 mb-4">
+        <div class="sidebar-box bg-light p-3">
+          <h2 class="sidebar-title">Sobre o Blog</h2>
+          <p>Este blog é dedicado a programadores e entusiastas de tecnologia. Nosso objetivo é inspirar, ensinar e compartilhar conhecimento técnico.</p>
+        </div>
+
+        <div class="sidebar-box bg-light p-3 mt-4">
+          <h2 class="sidebar-title">Entre em Contato</h2>
+          <p>Tem alguma dúvida ou sugestão? Entre em contato pelo formulário na página de contato.</p>
+          <a href="#final">Contatos</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="final" class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <dl>
+        <dt>Contato do desenvolvedor</dt>
+        <dd><a target="_blank" href="https://github.com/DIEGOBU17">Diego Bacelar</a></dd>
+        <dd>Whatsapp: (86) 9 9557-8300 </dd>
+      </dl>
+      <hr>
+      <p>&copy; 2024 Blog HTML e CSS. Todos os direitos reservados.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Política de Privacidade</a></li>
+        <li class="list-inline-item"><a href="#">Termos de Uso</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

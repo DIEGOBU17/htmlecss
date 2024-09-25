@@ -1,0 +1,110 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.7;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .navbar-brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #adb5bd;
+  }
+  
+  .main-title {
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+    color: #495057;
+  }
+  
+  .post-excerpt {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  .post-thumbnail img {
+    transition: transform 0.3s ease;
+  }
+  
+  .post-thumbnail img:hover {
+    transform: scale(1.03);
+  }
+  
+  .btn-outline-dark {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #343a40;
+  }
+  
+  .sidebar-title {
+    font-size: 1.3rem;
+    color: #343a40;
+  }
+  
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+  
+  .list-group-item:hover {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 1.75rem;
+    }
+  
+    .post-title {
+      font-size: 1.4rem;
+    }
+  
+    .post-excerpt {
+      font-size: 1rem;
+    }
+  
+    .sidebar-box {
+      margin-bottom: 20px;
+    }
+  
+    .col-lg-3, .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.4rem;
+    }
+  }  
